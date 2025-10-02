@@ -1,0 +1,14 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg width="128" height="128" viewBox="-80 -16 208 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Online Courses icon">
+  <title>Online Courses icon</title>
+
+  <!-- Cap -->
+  <path d="M24 6 L120 30 L24 54 L-72 30 Z" fill="#2563EB" stroke="#1e40af" stroke-width="3"></path>
+
+  <!-- Tassel -->
+  <path d="M120 30 C130 34, 138 44, 132 50" stroke="#facc15" stroke-width="4" fill="none" stroke-linecap="round"></path>
+  <circle cx="132" cy="50" r="6" fill="#f59e0b" stroke="#b45309" stroke-width="1.5"></circle>
+
+  <!-- Base shadow -->
+  <ellipse cx="24" cy="72" rx="48" ry="12" fill="#0f172a" opacity="0.08"></ellipse>
+</svg>
