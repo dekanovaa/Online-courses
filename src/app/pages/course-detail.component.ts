@@ -15,7 +15,7 @@ import { Course } from '../models/course.model';
       <div class="header-section">
         <div class="container">
           <button routerLink="/courses" class="btn-back">
-            <span class="back-icon">←</span>
+            <span class="back-icon"><i class="fa-solid fa-arrow-left"></i></span>
             Back to Courses
           </button>
         </div>

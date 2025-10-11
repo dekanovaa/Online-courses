@@ -25,7 +25,7 @@ import { CourseCardComponent } from '../components/course-card.component';
               <div class="user-details">
                 <span class="user-name">{{ authService.currentUser() }}</span>
                 <button (click)="authService.logout()" class="btn-logout">
-                  <span class="logout-icon">🚪</span>
+                  <span class="logout-icon"><i class="fa-solid fa-right-from-bracket"></i></span>
                   Logout
                 </button>
               </div>
@@ -38,7 +38,9 @@ import { CourseCardComponent } from '../components/course-card.component';
         <div class="container">
           <div class="filters-section">
             <div class="search-wrapper">
-              <span class="search-icon">🔍</span>
+              <span class="search-icon">🔍
+                
+              </span>
               <input 
                 type="text" 
                 placeholder="Search courses..." 
@@ -47,7 +49,7 @@ import { CourseCardComponent } from '../components/course-card.component';
             </div>
             
             <div class="sort-wrapper">
-              <span class="sort-icon">⚡</span>
+              <span class="sort-icon"><i class="fa-solid fa-sort"></i></span>
               <select [(ngModel)]="sortBy" (ngModelChange)="onSortChange()">
                 <option [ngValue]="null">Sort by...</option>
                 <option value="price">Price (Low to High)</option>
@@ -101,6 +103,10 @@ import { CourseCardComponent } from '../components/course-card.component';
       height: 300px;
       background: rgba(255, 255, 255, 0.1);
       border-radius: 50%;
+    }
+
+    .fa-sort{
+      color: orange;
     }
 
     .header-section::after {

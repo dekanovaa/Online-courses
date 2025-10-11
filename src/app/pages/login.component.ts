@@ -20,7 +20,7 @@ import { AuthService } from '../services/auth.service';
           <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
             <div class="form-group">
               <div class="input-wrapper">
-                <span class="icon">📧</span>
+                <span class="icon"><i class="fa-solid fa-at"></i></span>
                 <input type="email" formControlName="email" placeholder="Email or phone number">
               </div>
               <div class="error" *ngIf="loginForm.get('email')?.touched && loginForm.get('email')?.errors?.['required']">
@@ -30,7 +30,7 @@ import { AuthService } from '../services/auth.service';
             
             <div class="form-group">
               <div class="input-wrapper">
-                <span class="icon">🔒</span>
+                <span class="icon"><i class="fa-solid fa-lock"></i></span>
                 <input type="password" formControlName="password" placeholder="Password">
               </div>
               <div class="error" *ngIf="loginForm.get('password')?.touched && loginForm.get('password')?.errors?.['required']">

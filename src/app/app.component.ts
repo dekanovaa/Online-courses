@@ -11,7 +11,9 @@ import { AuthService } from './services/auth.service';
     <nav class="navbar">
       <div class="nav-content">
         <div class="logo-section">
-          <div class="logo-icon">🎓</div>
+          <div class="logo-icon">
+          <i class="fa-solid fa-graduation-cap"></i>
+          </div>
           <span class="logo-text">CourseHub</span>
         </div>
         <div class="nav-links">
@@ -36,7 +38,9 @@ import { AuthService } from './services/auth.service';
             routerLinkActive="active"
             class="nav-link login-link"
           >
-            <span class="link-icon">🔐</span>
+            <span class="link-icon">
+            <i class="fa-solid fa-right-to-bracket"></i>
+            </span>
             <span class="link-text">Login</span>
           </a>
           <a
@@ -45,7 +49,7 @@ import { AuthService } from './services/auth.service';
             routerLinkActive="active"
             class="nav-link register-link"
           >
-            <span class="link-icon">✨</span>
+            <span class="link-icon"><i class="fa-solid fa-user-plus"></i></span>
             <span class="link-text">Register</span>
           </a>
         </div>
